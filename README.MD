@@ -1,4 +1,4 @@
-YOLO Object Detection Project on Jetson with Docker
+# YOLO Object Detection Project on Jetson with Docker
 This project demonstrates how to use the YOLO model (via the ultralytics library) for object detection on a Jetson device using a Docker container. It supports detection on images, videos, and real-time webcam input, with results saved to a specified directory. The project leverages TensorRT for optimized inference on NVIDIA GPUs.
 Prerequisites
 
@@ -228,7 +228,9 @@ Or ensure X11 forwarding is enabled (already included in detection_cam.sh).
 4. Webcam Not Working
 
 Cause: Webcam not mounted or not accessible.
+
 Solution:
+
 Check webcam device:
 ls /dev/video*
 
